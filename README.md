@@ -1,2 +1,7 @@
-### Description
-Watch the step by step youtube tutorial about how to create this board here: https://youtu.be/KWIzhbQaZZk
+This project features a custom-designed ESP32 development board equipped with a USB-C port for modern, reliable connectivity. Built around the powerful ESP32-WROOM-32 module, the board is ideal for IoT prototyping, embedded system development, and educational use. The design includes a USB-C interface for both power and UART programming, along with an onboard voltage regulator to ensure stable 3.3V operation.
+
+The board includes essential components such as a power LED, user-controllable GPIO LED, and auto-reset/boot circuitry to enable hassle-free firmware uploading—no need to press any buttons during flashing. All major GPIO pins are broken out to headers, providing easy access for sensors, modules, and custom peripherals. Protection features like reverse polarity safeguards and optional ESD diodes make the board suitable for both beginners and industrial use.
+
+This repository contains everything needed to replicate or modify the board: KiCad schematic and PCB layout files, ready-to-fabricate Gerber files, a complete bill of materials (BOM) with suggested components, and example Arduino firmware for initial testing. The board can be programmed via the Arduino IDE or ESP-IDF, and works seamlessly for a wide range of applications including wireless sensor nodes, BLE + Wi-Fi hybrid devices, and automation systems.
+
+Whether you're building your first IoT project or deploying a custom edge device, this USB-C ESP32 board offers a compact, future-ready platform to get started.
